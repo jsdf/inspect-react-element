@@ -1,0 +1,21 @@
+{
+  "name": "inspect-react-element",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib",
+    "test": "npm run prepublish && tap test"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "indent-string": "^2.1.0",
+    "lodash.omit": "^3.1.0",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "tap": "^1.4.1"
+  }
+}
